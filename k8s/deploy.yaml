@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cicd-demo
-          image: ghcr.io/888lilili/cicd-demo:6
+          image: ghcr.io/888lilili/cicd-demo:7
           ports:
             - containerPort: 80
           readinessProbe:
